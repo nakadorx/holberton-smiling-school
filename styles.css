@@ -118,8 +118,8 @@ header {
 /* part 2 */
 .section2 {
   background-color: var(--color-purple);
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   color: var(--color-white) !important;
   margin-top: auto;
 }
@@ -141,4 +141,67 @@ header {
 }
 .arrowslid {
   height: 5rem;
+}
+/* part 3*/
+.section3 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.videoCardImg {
+  width: 255px !important;
+}
+.videoCardName {
+  margin-top: 1rem;
+  font-family: var(--hero-title-familty-font);
+  font-size: 16;
+  font-weight: 700;
+}
+.videoCardDesc {
+  font-family: var(--hero-title-familty-font);
+  font-size: 14;
+  font-weight: 400;
+  color: gray;
+}
+.videoCardProfilePic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.videoCardProfileName {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 600;
+
+  color: var(--color-purple);
+  font-size: 14;
+  margin-left: 1rem;
+}
+.videoCardProfilePicPlay {
+  position: absolute;
+  height: 64px;
+  width: 64px;
+  mix-blend-mode: normal;
+  top: 2rem;
+  left: 5rem;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+}
+.time {
+  font-family: var(--hero-title-familty-font);
+  font-size: 14px;
+  color: var(--color-purple);
+  font-weight: 600;
+}
+.S3header {
+  font-weight: var(--hero-title-familty-font);
+  font-weight: 300;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+.S3header > p > span {
+  font-weight: 700;
+  color: var(--color-purple);
 }
