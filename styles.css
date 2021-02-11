@@ -112,7 +112,33 @@ header {
 }
 .ProfilesDiv {
   margin-top: 3rem !important;
-  margin-bottom: 10rem !important;
 
   align-items: center;
+}
+/* part 2 */
+.section2 {
+  background-color: var(--color-purple);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: var(--color-white) !important;
+  margin-top: auto;
+}
+#carouselExampleControls {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.quote .s2Name .s2P2 {
+  font-family: var(--hero-title-familty-font);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.s2Name {
+  font-weight: 700;
+}
+.s2P2 {
+  font-style: italic;
+}
+.arrowslid {
+  height: 5rem;
 }
