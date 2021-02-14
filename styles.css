@@ -2,6 +2,7 @@
 
 :root {
   --hero-title-familty-font: 'Source Sans Pro';
+  --hero-title-familty-font3: 'Coiny';
   --hero-title-size: 120px;
   --color-purple: #c271ff;
   --color-white: white;
@@ -21,6 +22,22 @@
 }
 .navbar-toggler {
   border: none;
+}
+.coursheader {
+  background-image: url('images/pic_3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+.priheader {
+  background-image: url('images/pic_2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
 }
 header {
   background-image: url('images/pic_1.jpg');
@@ -270,4 +287,116 @@ footer {
   color: gray;
   font-size: 12;
   text-align: center;
+}
+/* 0 pricing */
+.whatIs {
+  font-family: var(--hero-title-familty-font);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 32px;
+}
+.divWutis {
+  margin-top: 5rem;
+}
+.phtitle {
+  padding-top: 3rem !important;
+}
+.activeMenulink {
+  color: var(--color-purple) !important;
+}
+.price {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 700;
+  font-size: 44px;
+  color: white;
+}
+.tranche {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 400;
+  font-size: 12px;
+  color: gray;
+}
+.pricediv {
+  text-align: center;
+}
+
+.table-text {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+}
+.tRow {
+  margin-top: 2rem;
+  border-bottom: 1px solid gray;
+  padding-bottom: 2rem;
+}
+.holberton_school-icon-check {
+  color: green;
+  font-size: 28px;
+}
+.signal {
+  height: 35px;
+  width: 88px;
+}
+.FAQ {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.faqtitle {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 300;
+  font-size: 60px;
+  text-align: center;
+}
+
+.paraghead {
+  font-family: var(--hero-title-familty-font);
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.parags {
+  margin-top: 5rem !important;
+}
+.paragdesc {
+  font-family: var(--hero-title-familty-font);
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+}
+.coiny {
+  text-align: center;
+  font-family: var(--hero-title-familty-font3);
+  font-weight: 400;
+  font-size: 32;
+  color: var(--color-white);
+}
+.coiny > span {
+  color: var(--color-purple);
+}
+.form-control,
+.input-group,
+.input-group-text,
+.input-group-prepend {
+  border-radius: 0;
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none;
+}
+.label {
+  margin-top: 2rem;
+  font-size: 12;
+  font-weight: 700;
+  font-family: var(--hero-title-familty-font);
+}
+.form-control::placeholder,
+.holberton_school-icon-search_1 {
+  color: white !important;
+}
+#dropdownMenuButton {
+  border-radius: 0;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: left;
 }
