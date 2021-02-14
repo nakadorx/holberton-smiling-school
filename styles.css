@@ -255,3 +255,19 @@ header {
 .btns4 {
   margin-top: 4rem;
 }
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--color-dark) !important;
+}
+.footer-icon {
+  font-size: 30px;
+  color: white;
+}
+.copyright {
+  margin-top: 2rem;
+  font-family: var(--hero-title-familty-font);
+  color: gray;
+  font-size: 12;
+  text-align: center;
+}
