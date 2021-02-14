@@ -1,5 +1,7 @@
+/** @format */
+
 :root {
-  --hero-title-familty-font: "Source Sans Pro";
+  --hero-title-familty-font: 'Source Sans Pro';
   --hero-title-size: 120px;
   --color-purple: #c271ff;
   --color-white: white;
@@ -21,7 +23,7 @@
   border: none;
 }
 header {
-  background-image: url("images/pic_1.jpg");
+  background-image: url('images/pic_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -142,66 +144,114 @@ header {
 .arrowslid {
   height: 5rem;
 }
-/* part 3*/
+/* part 3 */
 .section3 {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
-.videoCardImg {
-  width: 255px !important;
-}
-.videoCardName {
-  margin-top: 1rem;
+.section3 > h3 {
   font-family: var(--hero-title-familty-font);
-  font-size: 16;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  padding-bottom: 5rem;
+}
+.section3 > h3 > span {
+  font-weight: 700;
+  color: var(--color-purple);
+}
+.cardheader {
+  font-family: var(--hero-title-familty-font);
+  font-size: 16px;
   font-weight: 700;
 }
-.videoCardDesc {
+
+.cardDescription {
+  font-size: 14px;
   font-family: var(--hero-title-familty-font);
-  font-size: 14;
   font-weight: 400;
   color: gray;
 }
-.videoCardProfilePic {
+.cardOwnerPic {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-}
-.videoCardProfileName {
-  font-family: var(--hero-title-familty-font);
-  font-weight: 600;
-
-  color: var(--color-purple);
-  font-size: 14;
   margin-left: 1rem;
 }
-.videoCardProfilePicPlay {
-  position: absolute;
-  height: 64px;
-  width: 64px;
-  mix-blend-mode: normal;
-  top: 2rem;
-  left: 5rem;
-}
-
-.star {
-  width: 15px;
-  height: 15px;
-}
-.time {
+.cardOwnerName {
+  font-weight: 600;
   font-family: var(--hero-title-familty-font);
   font-size: 14px;
+  margin-left: 1rem;
   color: var(--color-purple);
-  font-weight: 600;
 }
-.S3header {
-  font-weight: var(--hero-title-familty-font);
-  font-weight: 300;
+.starsRow {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.star {
+  height: 15px;
+  width: 15px;
+  margin-right: 0.5rem;
+}
+.cardDate {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 600;
+  color: var(--color-purple);
+  font-size: 14px;
+  margin-left: 6rem;
+}
+.playbtnImng {
+  height: 64px;
+  width: 64px;
+  position: absolute;
+  left: 7rem;
+  top: 4rem;
+}
+.card {
+  border: none !important;
+}
+/* part 4 */
+.section4 {
+  background-color: var(--color-dark);
+
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.s4CardIcon {
+  width: 42px;
+  margin-top: 5rem;
+}
+.s4CardTitle {
+  font-family: var(--hero-title-familty-font);
+  font-weight: 600;
+  font-size: 18;
+  color: var(--color-white);
+  text-align: center;
+  margin-top: 2rem;
+}
+.s4CardDesc {
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--hero-title-familty-font);
+  font-weight: 400;
+  font-size: 14px;
+}
+.section4 > h3 {
+  font-family: var(--hero-title-familty-font);
   text-align: center;
   font-size: 32px;
-  margin-bottom: 2rem;
+  font-weight: 300;
+  padding-bottom: 5rem;
+  color: var(--color-white);
 }
-.S3header > p > span {
+.section4 > h3 > span {
   font-weight: 700;
   color: var(--color-purple);
+}
+.s4bntCard {
+  justify-items: center;
+}
+.btns4 {
+  margin-top: 4rem;
 }
